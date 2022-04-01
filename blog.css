@@ -34,14 +34,14 @@
     padding-bottom: 170px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .artigos img {
     margin-bottom: 19px;
 }
 .artigos {
     max-width: 518px;
-    padding: 100px ;
+    padding: 80px ;
 }
 .artigos a {
     font-weight: 500;

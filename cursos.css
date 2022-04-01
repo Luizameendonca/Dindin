@@ -47,9 +47,10 @@ div a {
     width: 380px;
 }
 .container-curso-1, .container-curso-2, .container-curso-3 {
-    flex-wrap: nowrap;
+    align-items: center;
     display: flex;
     margin-top: 100px;
+    padding-bottom: 20px ;
 }
 
 .container-curso-1, .container-curso-2 {
@@ -75,4 +76,14 @@ div a {
     height: 400px;
     width: 380px;
     color: transparent;
+}
+
+@media only screen and (max-width:800px) {
+    main {
+        padding: 50px;
+    }
+    .container-curso-1, .container-curso-2, .container-curso-3 {
+        flex-wrap: wrap;
+    }
+    
 }

@@ -56,3 +56,10 @@
     line-height: 20px;
     color: #000000;
 }
+
+@media only screen and (max-width:650px) {
+    .artigos img{
+        width: fit-content;
+        height: fit-content;
+    }
+}

@@ -186,3 +186,16 @@
 .mais > p {
     text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+    .mais {
+     padding: 80px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .mais a{
+    font-size: 15px;
+
+    padding: 10px 21px;
+    }
+}

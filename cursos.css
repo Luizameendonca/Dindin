@@ -1,0 +1,78 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Ubuntu";
+    padding: 110px;
+}
+
+section h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    color: #FF4081;
+}
+section p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #555555;
+}
+div h2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+}
+
+div > p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 53px;
+
+}
+div a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #419488;
+    border-radius: 62px;
+    padding: 13px 40px;
+}
+.img-banner {
+    width: 380px;
+}
+.container-curso-1, .container-curso-2, .container-curso-3 {
+    flex-wrap: nowrap;
+    display: flex;
+    margin-top: 100px;
+}
+
+.container-curso-1, .container-curso-2 {
+    border-bottom: 5px solid #C4C4C4;
+}
+
+.cursos-1 {
+    background: url(img/image\ 3\ \(Traced\).png) no-repeat;
+    height: 381px;
+    width: 380px;
+    color: transparent;
+}
+
+.cursos-2 {
+    background: url(img/image\ 2\ \(Traced\).png) no-repeat;
+    height: 380px;
+    width: 385px;
+    color: transparent;
+}
+
+.cursos-3 {
+    background: url(img/image\ 4\ \(Traced\).png) no-repeat;
+    height: 400px;
+    width: 380px;
+    color: transparent;
+}

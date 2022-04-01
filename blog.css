@@ -1,0 +1,58 @@
+.header-curso {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 80px;
+}
+.sobre h1{
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 54px;
+    color: #009688;
+}
+.sobre {
+    max-width: 461px;
+}
+.sobre p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    
+}
+
+.banner-curso {
+    background: url(img/ilustra-blog.png) 100% no-repeat;
+    width: 405px;
+    height: 405px;
+    color: transparent; 
+}
+.todos-artigos {
+    background-color: #e5e5e5 ;
+    padding-top: 109px;
+    padding-bottom: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.artigos img {
+    margin-bottom: 19px;
+}
+.artigos {
+    max-width: 518px;
+    padding: 100px ;
+}
+.artigos a {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34px;
+    color: #FF4081;
+    text-decoration: none;
+}
+.artigos p {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+}

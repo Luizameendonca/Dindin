@@ -1,0 +1,68 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 105px auto;
+}
+section h1 {
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FF4081;
+    margin-bottom: 41px;
+}
+
+
+form input, textarea {
+    resize: none;
+    display: flex;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #58555D;
+    width: 493px;
+    padding: 5px;
+    padding-left: 22px;
+    border-radius: 7px;
+    border: 1px solid #686868;
+}
+
+textarea {
+    padding: 15px;
+}
+
+button {
+    border: none;
+    background: none;
+}
+.button {
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    background: #FF4081;
+    border-radius: 50px;
+    font-family: 'Nunito';
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 5px 30px;
+    cursor: pointer;
+}
+
+
+
+.banner {
+    background: url(img/ilustra-contato.png) no-repeat;
+    width: 444px;
+    height: 444px;
+}
+
+.banner h4 {
+    display: none;
+}

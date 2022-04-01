@@ -1,0 +1,63 @@
+.header-curso {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 80px;
+}
+.sobre h1{
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 63px;
+    color: #FF4081;
+}
+.sobre {
+    max-width: 461px;
+}
+.sobre p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+
+}
+
+.banner-curso {
+    background: url(img/ilustra-poupando.png) 100% no-repeat;
+    width: 380px;
+    height: 380px;
+    color: transparent; 
+}
+
+
+.playlist {
+    background-color: #F7F7F7;
+    padding: 0 75px;
+}
+.aulas, .aulas-ultimo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1050px;
+    padding: 75px;
+    
+}
+.content h2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+}
+.content {
+    max-width: 501px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    
+}
+.aulas {
+
+    border-bottom: 3px solid #C4C4C4;
+}
